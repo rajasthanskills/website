@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Layout Components
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar';
 import Announcement from './components/Announcement';
 import Footer from './components/Footer';
 
