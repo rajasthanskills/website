@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './Navbar';
+import Navbar from './NavBar';
 import { Sparkles, ArrowRight, Users, Trophy, Target, ChevronDown } from './Icons';
 // Custom SVG Icons
 
