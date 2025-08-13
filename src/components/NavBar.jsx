@@ -12,7 +12,6 @@ const Navbar = () => (
           <span className="text-xl font-bold text-white">Rajasthan Skills and Academy</span>
         </div>
 
-        {/* Navigation Links */}
         <ul className="hidden md:flex space-x-8 list-none m-0 p-0">
           <li>
             <Link to="/" className="text-white/80 hover:text-white transition-colors font-semibold">Home</Link>
