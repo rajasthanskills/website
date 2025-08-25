@@ -46,13 +46,13 @@ const Contact = () => (
       <div className="bg-blue-50 p-8 rounded-2xl shadow-md text-gray-700 flex flex-col justify-center">
         <h3 className="text-2xl font-semibold text-blue-600 mb-4">Contact Information</h3>
         <p className="mb-4">
-          <strong>Email:</strong> contact@yourcompany.com
+          <strong>Email:</strong> shitanshu@rajasthanskills.com
         </p>
         <p className="mb-4">
-          <strong>Phone:</strong> +91 98765 43210
+          <strong>Phone:</strong> +91 9116656324
         </p>
         <p className="mb-4">
-          <strong>Office:</strong> 4th Floor, Business Tower, Sector 62, Noida, India
+          <strong>Office:</strong>  F-45, Near, Apex Cir, Malviya Nagar Industrial Area, Malviya Nagar, Jaipur, Rajasthan 302017
         </p>
         <p className="mt-6 text-sm text-gray-500">
           We aim to respond to all inquiries within 1–2 business days.

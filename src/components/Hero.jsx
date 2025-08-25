@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './NavBar';
+import Navbar from './Navbar';
+import { Link } from "react-router-dom";
 import { Sparkles, ArrowRight, Users, Trophy, Target, ChevronDown } from './Icons';
 // Custom SVG Icons
 
@@ -7,9 +8,9 @@ import { Sparkles, ArrowRight, Users, Trophy, Target, ChevronDown } from './Icon
 
 
 const FloatingCard = ({ icon: Icon, title, delay }) => (
-  <div 
+  <div
     className="absolute bg-white/10 backdrop-blur-md rounded-2xl p-4 border border-white/20 shadow-2xl animate-float"
-    style={{ 
+    style={{
       animationDelay: `${delay}s`,
       animationDuration: '6s'
     }}
@@ -69,7 +70,7 @@ const Content = () => {
     <section className="relative min-h-screen flex items-center justify-center text-center text-white overflow-hidden">
       {/* Animated Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 animate-gradient-shift" />
-      
+
       {/* Geometric Shapes */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl animate-pulse" />
@@ -82,21 +83,21 @@ const Content = () => {
       <ParticleEffect />
 
       {/* Floating Cards */}
-      <FloatingCard 
-        icon={Users} 
-        title="50k+ Job Seekers" 
+      <FloatingCard
+        icon={Users}
+        title="50k+ Job Seekers"
         delay={0}
         className="top-32 left-8 hidden lg:block"
       />
-      <FloatingCard 
-        icon={Trophy} 
-        title="Top Companies" 
+      <FloatingCard
+        icon={Trophy}
+        title="Top Companies"
         delay={2}
         className="top-48 right-12 hidden lg:block"
       />
-      <FloatingCard 
-        icon={Target} 
-        title="Perfect Match" 
+      <FloatingCard
+        icon={Target}
+        title="Perfect Match"
         delay={4}
         className="bottom-32 left-16 hidden lg:block"
       />
@@ -129,12 +130,16 @@ const Content = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
           <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full font-bold text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 overflow-hidden">
             <span className="relative z-10 flex items-center space-x-2">
-              <span>Get Started Today</span>
+              <Link
+                to="/contact"
+              >  <span>
+                  Get Started Today
+                </span></Link>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </span>
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
-          
+
           <button className="group px-8 py-4 bg-white/10 backdrop-blur-sm rounded-full font-semibold text-lg border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
             <span className="flex items-center space-x-2">
               <span>Watch Demo</span>

@@ -1,22 +1,22 @@
 const testimonials = [
   {
-    name: "Client A",
-    feedback: "Great support and timely placements!",
+    name: "Pawan Chauhan",
+    feedback: "Provides great opportunities in private sector jobs. Professional team that guides you towards your dream job",
     image: "/avatars/person1.jpg",
   },
   {
-    name: "Client B",
+    name: "Ravi Sharma",
     feedback: "Professional service and good communication.",
     image: "/avatars/person2.jpg",
   },
   {
-    name: "Client C",
+    name: "Monika Sharma",
     feedback:
       "Helped us find quality candidates in record time! Very reliable, and easy to work with throughout the hiring process.",
     image: "/avatars/person3.jpg",
   },
   {
-    name: "Client D",
+    name: "Saurabh Singh",
     feedback:
       "Reliable and consistent, highly recommended for both recruitment and staffing.",
     image: "/avatars/person4.jpg",

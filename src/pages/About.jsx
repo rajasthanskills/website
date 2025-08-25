@@ -36,9 +36,9 @@ const AboutUs = () => (
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
         {[
-          { name: "Aarav Mehta", role: "Founder & CEO", img: "/team/aarav.jpg" },
-          { name: "Riya Kapoor", role: "Talent Head", img: "/team/riya.jpg" },
-          { name: "Siddharth Roy", role: "Operations Lead", img: "/team/sid.jpg" },
+          { name: "Shitanshu Jha", role: "Founder & CEO", img: "/team/aarav.jpg" },
+          { name: "Vasudev Jha", role: "Co-founder", img: "/team/riya.jpg" },
+          { name: "Himanshu", role: "Talent Head", img: "/team/sid.jpg" },
         ].map((member, index) => (
           <div key={index} className="bg-white p-6 rounded-xl shadow text-center">
             <img
